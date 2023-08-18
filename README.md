@@ -5,9 +5,8 @@ Based on chapter 11 (ch11) of “Implementing a Multi-layer Artificial Neural Ne
 
 In the file **Part1_ANN_From_Scratch.ipynb**, I revised the code from ch11 so that the ANN built from scratch includes 2 hidden layers, instead of 1 hidden layer. 
 The main work was done in the forward() and backwards() methods, as the gradients of the losses needed to be calculated using the "Chain Rule" to backpropagate for the training.
-In addition, the prediction performance of the resulted ANN was evaluated using macro AUC on an ANN model built from scratch.
 
-A comparison between the 2-hidden-layer ANN (Revised) results, the original code results (from the book, see ch11_OriginalCode_withAUC.ipynb) and the fully connected ANN as implemented in Keras (found in Part1_ANN_From_Scratch.ipynb), can be seen in Table 1 below. 
+A comparison between the results of the revised 2-hidden-layer ANN, the original code (from the book, see ch11_OriginalCode_withAUC.ipynb) and fully connected ANN implemented in Keras (found in Part1_ANN_From_Scratch.ipynb), can be seen in Table 1 below. 
 
 *Table 1 – Macro AUC comparison*
 |      | Revised | Keras implementation |	Original code from the book |
