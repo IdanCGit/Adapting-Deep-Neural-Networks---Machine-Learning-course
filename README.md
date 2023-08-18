@@ -1,4 +1,4 @@
-# Deep Neural Networks - Machine Learning Course Ex3
+# Deep Neural Networks - Machine Learning Course Assignment
 
 ## Part 1: ANN from Scratch
 Based on chapter 11 (ch11) of “Implementing a Multi-layer Artificial Neural Network from Scratch” of the book “Machine Learning with PyTorch and Scikit-Learn” by Raschka et al. (2022)
