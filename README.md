@@ -45,7 +45,6 @@ predictions = Dense(102, activation='softmax')(x)
 ### YOLOv5
 YOLOv5 is mainly an object detection model, but it also has classification models like: YOLOv5s-cls. 
 To train the model on a custom dataset, such as the Oxford 102 flowers dataset in this task, I used the classify/train.py, and the testing was made using the classify/val.py.
-The pretrained model I used was YOLOv5s-cls model. I chose this model out of the 5 they have as it showed a good tradeoff between accuracy (on ImageNet), size (params) and runtime.
 
 *YOLOv5-cls' results*
 <p align="center">
